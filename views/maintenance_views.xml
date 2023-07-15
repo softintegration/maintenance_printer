@@ -17,6 +17,8 @@
                         </group>
                         <group>
                               <field name="both_sides" widget="boolean_toggle" attrs="{'invisible':[('is_printer','=',False)]}"/>
+                              <field name="front_color_cpt" attrs="{'invisible':[('both_sides','=',False)]}"/>
+                              <field name="back_color_cpt" attrs="{'invisible':[('both_sides','=',False)]}"/>
                         </group>
                     </group>
                 </xpath>

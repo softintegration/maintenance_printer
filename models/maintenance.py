@@ -15,3 +15,6 @@ class MaintenanceEquipment(models.Model):
     is_printer = fields.Boolean(string='Is printer',default=False)
     color_cpt = fields.Integer(string='Number of Colors')
     both_sides = fields.Boolean(string='Both sides', default=False)
+    front_color_cpt = fields.Integer(string='Front number of Colors')
+    back_color_cpt = fields.Integer(string='Back number of Colors')
+
