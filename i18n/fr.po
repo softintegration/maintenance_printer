@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-15 15:26+0000\n"
-"PO-Revision-Date: 2023-07-15 15:26+0000\n"
+"POT-Creation-Date: 2023-07-16 10:44+0000\n"
+"PO-Revision-Date: 2023-07-16 10:44+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -29,6 +29,16 @@ msgstr "Recto/Verso"
 #: model:ir.model.fields,field_description:maintenance_printer.field_maintenance_equipment__front_color_cpt
 msgid "Front number of Colors"
 msgstr "Nombre de couleur Recto"
+
+#. module: maintenance_printer
+#: code:addons/maintenance_printer/models/maintenance.py:0
+#, python-format
+msgid ""
+"Front number of Colors and Back number of Colors should be strictly positive"
+" in the case of both sides equipment"
+msgstr ""
+"Le nombre de couleurs Recto et le nombre de couleurs Verso doivent être strictement positifs"
+" dans le cas d'un equipement recto-verso"
 
 #. module: maintenance_printer
 #: model:ir.model.fields,field_description:maintenance_printer.field_maintenance_equipment__is_printer
